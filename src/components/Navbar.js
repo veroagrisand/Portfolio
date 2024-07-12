@@ -17,7 +17,7 @@ import {
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const [logo, updateLogo] = useState(false);
+  const [logo] = useState(false);
   
   function scrollHandler() {
     if (window.scrollY >= 20) {
