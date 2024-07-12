@@ -157,7 +157,6 @@ button:focus {
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
-  background-image: url(../Assets/logo.png);
 }
 
 .navbar-nav .nav-link {
