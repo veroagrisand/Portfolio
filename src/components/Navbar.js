@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -16,6 +17,7 @@ import {
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [logo, updateLogo] = useState(false);
   
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -80,7 +82,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://medium/veroagrisand"
+                href="https://medium/veroagrisanda"
                 target="_blank"
                 rel="noreferrer"
               >
